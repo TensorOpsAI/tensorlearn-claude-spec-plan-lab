@@ -2,16 +2,11 @@
   "key": "spec-plan",
   "title": "Make the spec and plan traceable",
   "minutes": 30,
-  "chapter": "Chapter 1 \u00b7 Specification and planning",
+  "chapter": "Chapter 1 · Specification and planning",
   "writeAllow": [
     "spec.md",
-    "plan.md",
-    "assessment.json"
+    "plan.md"
   ],
-  "practice": [
-    "spec-plan.practice"
-  ],
-  "needsAI": true,
   "brief": "An approved notification intent is ready, but old design advice conflicts with current source and policy. The provider limits throughput and an existing portal route should be reused.",
   "acceptance": [
     "Each approved intent item maps to requirements, plan steps and tests.",
@@ -19,6 +14,5 @@
     "The plan references real repository paths and does not depend on a nonexistent helper.",
     "Open recipient/channel choices retain explicit owners.",
     "Source remains unchanged."
-  ],
-  "recipeIndex": 6
+  ]
 }
